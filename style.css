@@ -1,0 +1,452 @@
+/* 
+...............
+   HEADER
+.............
+*/
+body{
+    font-family: 'Fira Sans', sans-serif;
+   overflow-x: hidden;
+}
+.container{
+    width: 73.25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;   
+}
+header{
+    width: 100%;
+	background: url(img/bg/bg1.png) center no-repeat;
+    -webkit-background-size:cover;
+   background-size: cover;
+}
+.pt-7{
+    padding-top: 5rem;
+}
+.pt-12{
+    padding-top: 12rem;
+}
+.mt-7{
+    margin-top: 7rem;
+}
+.pt-8{
+    padding-top: 6rem;
+}
+.menu{
+    font-size: 2em;
+    width: 27px;
+    padding-left: 1.5rem;
+    height: 42px;
+    
+}
+.mr-7{
+    margin-right: 7rem;
+}
+.pb-12{
+    padding-bottom: 12rem;
+}
+
+.col-nav span{
+    font-size: 0.75rem;
+}
+.row-nav{
+display: flex;
+justify-content: space-between;
+}
+.main-nav {
+    visibility: hidden;
+    display: flex;
+    padding-top: 0.5rem;
+    position: absolute;
+}
+.main-nav a{
+    color: #000;
+    padding-right: 2rem;
+}
+.header__text h2{
+    font-size: 4.5rem;
+font-weight: 300;
+line-height: 3.5rem;
+}
+.header__text p{
+    font-size: 1.875rem;
+line-height: 3rem;
+margin-bottom: 0;
+}
+
+/*..................
+
+        ABOUT ME
+
+...............*/
+.about__me__text{
+    background-color: #f3f1ef;
+}
+.photo1 img{
+    height: 100%;
+    width: 100%;
+}
+.about__me__text h3{
+color: #666666;
+font-size: 3vmin;
+font-weight: 700;
+text-transform: uppercase;
+}
+.about__me__text p{
+    color: #666666;
+    font-family: "Fira Sans";
+    font-size:  4vmin;
+    font-weight: 300;
+    letter-spacing: -0.9px;
+    line-height: 5vmin;
+    padding-top: 2rem;
+}
+.gallery img{
+    width: 100%;
+}
+
+
+.instagram__text{
+    color: #ffffff;
+    background-color: #3f729b;
+}
+.instagram__text h3{
+    font-size: 3vmin;
+font-weight: 700;
+padding-bottom: 1rem;
+}
+.instagram__text p{
+    font-size:  4vmin;
+    opacity: 0.7;
+    padding-bottom: 1rem;
+}
+.instagram__text__content{
+    padding-top: 6vmax;
+    padding-left: 9vmax;
+    padding-right: 3vmax;
+   
+}
+.insta-foto{
+height: auto;
+   width: 100%;
+}
+.instagram-btn{
+    border-radius: 1.75em;
+    padding:  1vmin  1.2vmin  1vmin  1.5vmin;
+    letter-spacing: 3.6px;
+    font-size: 2vmin;
+    margin-bottom: 3vw;
+}
+.instagram-bg{
+    background-color: #3f729b;
+}
+
+/*.................. 
+
+   MUSIC 
+
+..................*/
+
+.music-bg{
+    background-color: #282b2f;
+}
+.my__music{
+    width: 100%;
+	background: url(img/music/musics.png) center no-repeat;
+    -webkit-background-size:cover;
+   background-size: cover;
+   height: 100vh;
+}
+.song__cart{
+    background-color: #212227;
+ max-width: 400px;
+}
+.info__song__cart {
+   padding-left: 7rem;
+  
+}
+.song__cart h3,h4{
+    color: #2ebd59;
+    text-transform: uppercase;
+}
+.song__cart h3{
+    font-size: 2.5vmin;
+    padding-top: 6rem;
+    font-weight: 700;
+}
+.song__cart h4{
+    font-size: 1.75vmin;
+}
+.info__music{
+    font-size: 1vmin;
+    color: #dfdfdf;
+    line-height: 2vmin;
+}
+.music__btn a{
+    color: #2ebd59;
+}
+.music__btn{
+    border-radius: 1.75em;
+   margin-top: 3vmin;
+   margin-bottom: 10vmin;
+}
+.music__btn i{
+    font-size: 1.5vmin;
+}
+.music__btn a:hover{
+color: #ffffff;
+text-decoration: none;
+}
+
+/*.................. 
+
+     SERVICES 
+
+...................*/
+
+.spotify__service,.itunes__service{
+    background-color: #282b2f;
+    color: #ffffff;
+    transition: background-color  .4s linear;
+    width: 100%;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+.spotify__service h3 , .itunes__service h3{
+    font-size: 2.5vmin;
+    font-weight: bold;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+}
+.spotify__service p,.itunes__service p{
+    font-size: 3vmin; 
+}
+.service__btn{
+    text-transform: uppercase;
+    border-radius: 1.75em;
+    margin-top: 1rem;
+   margin-bottom: 8rem;
+}
+.service__btn a{
+  font-size: 2vmin;
+  color: #ffffff;
+}
+.spotify__service{
+    padding-left: 15rem;
+    
+ 
+}
+.service__btn a:hover{
+    text-decoration: none;
+    color: #000000;
+  }
+  .itunes__service{
+      padding-left: 3rem;
+  }
+  .spotify__service:hover,.itunes__service:hover{
+    background-color: #2ebd59;
+  }
+
+/*...............
+
+     FOOTER
+
+..................*/
+footer{
+    background-color: #212227;
+    color: #ffffff;
+}
+footer .container{
+    width: 75%;
+}
+.main__footer{
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+}
+.footer__text{
+    padding-bottom: 2em;
+    padding-right: 11vmin;
+}
+.footer__text h3{
+    font-size: 2.5vmin;
+}
+.footer__text h3:last-of-type{
+    padding-bottom: 1em;
+}
+.footer__text p{
+    font-size: 1.9vmin;
+opacity: 0.5;
+}
+.footer__text span{
+    font-size: 1.9vmin;
+    padding-top: 1em;
+    
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.footer__contact h3{
+    font-size: 2.5vmin;
+}
+.footer__contact address{
+    font-size: 1.9vmin;
+    opacity: 0.5;
+}
+.footer__contact span{
+    font-size: 1.9vmin;
+    opacity: 0.5;
+}
+.footer__contact{
+    padding-right: 10vmin;
+    padding-bottom: 2em;
+}
+.footer__contact__follow{
+   color: #ffffff;
+   padding-bottom: 0.5em;
+   padding-top: 2em;
+}
+.footer__socials{
+    font-size: 1.9vmin;
+    opacity: 0.5;
+}
+.footer__socials a{
+    color: #ffffff;
+    padding-left: 1vmin;
+}
+.social{
+    padding-bottom: 0.75vmin;
+}
+
+.footer__subscribe h3{
+    font-size: 2.5vmin;
+}
+.footer__subscribe p{
+    font-size: 1.9vmin;
+    opacity: 0.5;
+}
+.input-email{
+    border: none;
+    padding: 1.5em 0 1.5em 1em;
+}
+.input-email::placeholder{
+    font-size: 1.9vmin;
+color: #919191;
+
+}
+.input-group-email{
+    border:none;
+}
+.sponsors span{
+    border: 1px solid #f4f8fb;
+    padding: 2em 1.44em 2em 1.44em;
+    font-size: 1.7vmin;
+    margin-right: 1rem;
+}
+.sponsors{
+    margin-top: 3rem;
+   
+}
+.sponsor__h3{
+    padding-top: 3rem;
+}
+
+
+
+
+
+/*.....
+ MEDIA 
+......*/
+@media(min-width:10px){
+    body{
+        overflow-x: hidden;
+    }
+}
+@media(max-width:1200px){
+    .spotify__service{
+        padding-left: 3rem;
+    }
+}
+@media(max-width:1150px){
+    .main-nav a{
+        padding-right: 1rem;
+    }
+}
+@media(max-width:1000px){
+  
+    .header__text h2{
+        font-size: 3.5rem;
+    line-height: 3rem;
+    }
+    .header__text p{
+        font-size: 1.5rem;
+    }
+   .main-nav{
+       text-align: center;
+       flex-direction: column;
+       top: 100%;
+       left: 82%;
+      
+   }
+   .main-nav a{
+    padding-right: 0rem;
+   }
+   .menu{
+       padding-left: 0;
+   }
+.music__btn{
+    padding: 0.5vmin 1.5vmin 0.5vmin 1.5vmin;
+}
+.music__btn a{
+    font-size: 2vmin;
+    
+}
+.music__btn i{
+    font-size: 1.5vmin;
+}
+}
+@media(max-width:992px){
+        .itunes__service, .spotify__service{
+        padding-left: 0!important;
+    }
+}
+@media(max-width:700px){
+    .header__text h2{
+        font-size: 3.25rem;
+    line-height: 2rem;
+    }
+    .header__text p{
+        font-size: 1.25rem;
+    }
+    .main-nav{
+        text-align: right;
+        left: 70%;
+       
+    }
+}
+@media(max-width:590px){
+    .header__text h2{
+        font-size: 1.5rem;
+    line-height: 0;
+    }
+    .header__text p{
+        font-size: 0.5rem;
+        line-height: 2rem;
+    }
+    .main-nav{
+        text-align: right;
+    }
+    .main-nav a{
+        font-size: 0.75rem;
+    }
+}
+@media(max-width:490px){
+.main-nav{
+    left: 63%;
+}
+}
+@media(max-width:410px){
+    .main-nav{
+        left: 56%;
+    }
+    }
